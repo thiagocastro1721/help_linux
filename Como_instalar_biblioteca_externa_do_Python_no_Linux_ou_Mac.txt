@@ -1,0 +1,36 @@
+Como instalar biblioteca externa do Python no Linux ou Mac:
+
+A biblioteca loteria-caixa foi usada como exemplo.
+
+Plano A:
+
+python3 -m venv myenv
+source myenv/bin/activate  # On Windows, use `myenv\Scripts\activate`
+pip install loteria_caixa
+python3 /home/thiago/Desktop/lotofacil.py
+deactivate
+
+
+Plano B:
+
+pipx install loteria-caixa --include-deps --force
+
+#irá aparecer a seguinte mensagem ou similar. O importante é observar o que aparece no lugar da palavra "venv".
+
+	Installing to existing venv 'loteria-caixa'
+	⚠  Note: chardetect was already on your PATH at /usr/bin/chardetect
+  	installed package loteria-caixa 0.0.5, installed using Python 3.12.3
+  	These apps are now globally available
+    	- chardetect
+	done! ✨ 🌟 ✨
+
+source venv/bin/activate
+
+#O ambiente simulado deve aparecer
+(venv) thiago@thiago-eme443:
+
+python3 /home/thiago/Desktop/lotofacil.py
+
+#Para sair do ambiente virtual
+deactivate
+
