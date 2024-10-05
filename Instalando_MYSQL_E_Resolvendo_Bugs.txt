@@ -1,0 +1,25 @@
+Para instalação siga os passos do vídeo:
+  https://www.youtube.com/watch?v=122iQfGsljA
+
+BUG
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)' -- Missing /var/run/mysqld/mysqld.sock
+
+This error occurs due to multiple installations of mysql. Run the command:
+ps -A|grep mysql
+
+Kill the process by using:
+sudo pkill mysql
+
+and then run command:
+ps -A|grep mysqld
+
+Also Kill this process by running:
+sudo pkill mysqld
+
+Now you are fully set just run the following commands:
+
+service mysql restart
+mysql -u root -p
+
+Have very well working mysql again!
+Fonte: https://stackoverflow.com/questions/11990708/error-cant-connect-to-local-mysql-server-through-socket-var-run-mysqld-mysq
