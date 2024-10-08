@@ -4,7 +4,7 @@ Como Trocar a Foto de Usuário Lubuntu:
 3. Na nova guia root recém aberta navegue até o caminho: /usr/share/sddm/faces
 4. Cole a imagem desejada para a pasta faces.
 6. Renomeie a imagem com o seguinte padrão usuário.face.icon. Exemplo: thiago.face.icon
-7. Para fazer um teste siga os passos a seguir.
+7. Para fazer um teste observe os passos a seguir.
 8. Salve todos os arquivos e coisas importantes.
 9. Menu > Sair > Sair.
 Fonte: https://www.youtube.com/watch?v=MsfPtsq-gk4
