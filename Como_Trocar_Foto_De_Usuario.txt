@@ -1,6 +1,0 @@
-Como Trocar Foto de Usuário:
-1. Abra o seu gerenciar de arquivos.
-2. Vá em ferramentas e depois em abrir guia a instância root.
-3. Na nova guia root recém aberta navegue até o caminho /usr/share/sddm/faces
-4. Cole a imagem desejada para a pasta faces.
-6. Renomeie a imagem com o seguinte padrão usuário.face.icon. Exemplo: thiago.face.icon
