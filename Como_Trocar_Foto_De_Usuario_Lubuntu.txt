@@ -1,4 +1,4 @@
-Como Trocar Foto de Usuário Lubuntu:
+Como Trocar a Foto de Usuário Lubuntu:
 1. Abra o seu gerenciar de arquivos.
 2. Vá em "Ferramentas" e depois em "Abrir guia na instância root".
 3. Na nova guia root recém aberta navegue até o caminho: /usr/share/sddm/faces
@@ -7,3 +7,4 @@ Como Trocar Foto de Usuário Lubuntu:
 7. Para fazer um teste siga os passos a seguir.
 8. Salve todos os arquivos e coisas importantes.
 9. Menu > Sair > Sair.
+Fonte: https://www.youtube.com/watch?v=MsfPtsq-gk4
