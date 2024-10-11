@@ -1,0 +1,11 @@
+Redimensionar Janelas Ao Arrastar Para O Canto Da Tela.
+Será necessário mudar o gereciador de janelas.
+1. Abra o terminal e digite o seguinte comando:
+  sudo apt install kwin-x11
+2. Após a instalação, vá para:
+  MENU > Preferências > Definições do LXQT > Configurações de Sessão > Configurações Básicas > Gerenciador de Janelas 
+3. Selecione a opção "kwin_x11".
+4. Presione o botão "Iniciar".
+5. Pressione o botao "Fechar".
+6. Reinicie o computador.
+Fonte: https://youtu.be/FT51nxI-BO0?si=7d7KYk75o6RVLzlN
