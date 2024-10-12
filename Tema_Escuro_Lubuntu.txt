@@ -1,0 +1,29 @@
+Tema Escuro Lubutu:
+1. Abra o terminal e digite o seghuinte comando.
+  apt search kavantum
+2. A pesquisa irá mostrar 3 ou mais resultados que são diferentes para cada máquina. Por exemplo:
+
+  orchis-kde/noble,noble,now 2024-01-08-0ubuntu1 all [instalado]                                                             
+  Port of the popular GTK theme Orchis for Plasma                                                                                                                                                                    
+                                                                                                                           
+  qt5-style-kvantum-l10n/noble,noble,now 1.0.10-1build3 all [instalado]                                                      
+    Kvantum style engine (localization)                                                                                      
+                                                                                                                           
+  qt5-style-kvantum-themes/noble,noble,now 1.0.10-1build3 all [instalado]                                                    
+    Kvantum style engine (themes)
+3. Reinstale cada um dos resultados para obter mais temas.
+  sudo apt install orchis-kde
+  sudo apt install qt5-style-kvantum-l10n
+  sudo apt install qt5-style-kvantum-themes
+4. Na barra de pesquisa procure por Kvantum Manager, abra-o.
+5. Vá para Alterar Alterar/Excluir Temas
+6. Como sugestão para tema escuro escolha "KvDark" depois clique em "Usar este tema".
+7. Vá para Menu > Preferências > Definições do LXQt > Aparência > Estilo do Widget escolha o mesmo tema "KvDark".
+8. Se quiser alterar a cor da barra superior da janela siga mais estes passos.
+9. Clique com o botão esquerdo do mouse sobre o ícone que está no cato esquerdo da barra superior da janela.
+10. avegue para Mais Ações > Configurar gerenciador de janelas > decorações de janela.
+11. Como sugestão escolha o tema "Orchis-dark"
+12. Reinicie a Máquina.
+Fonte: https://youtu.be/oxG54VF8XPo?si=GzBKnVtDY8162Iwe
+  
+  
