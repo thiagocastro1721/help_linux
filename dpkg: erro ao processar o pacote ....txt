@@ -1,10 +1,10 @@
 Este erro impede a instalação de novos programas e atualização do sistema.
-Remova os arquivos temporários de instalação. A pasta info deve estar cheia de arquivos temporário ou comrrompidos.
-Siga o passo a passo.
-  1. Abra o gerenciador de arquivos e navegue até a pasta /var/lib/dpkg/info e observe a quantidade de arquivos. Matenha a pasta aberta para obervar os arquivos sendo removidos.
-  2. Abra o terminal e execute a seguência de comando abaixo para remover todos os arquivos da pasta info:
+Remova os arquivos temporários de instalação. A pasta info deve estar cheia de arquivos temporários ou comrrompidos.
+Siga o passo a passo:
+  1. Abra o gerenciador de arquivos e navegue até a pasta /var/lib/dpkg/info e observe a quantidade de arquivos. Matenha a pasta aberta para observar os arquivos sendo removidos.
+  2. Abra o terminal e execute a seguência de comandos abaixo para remover todos os arquivos da pasta info:
       sudo su
       rm /var/lib/dpkg/info/*
   3. Observe se a pasta /var/lib/dpkg/info no gerenciador de arquivos está vazia. Caso necessário abra outra instancia do gerenciador de arquivos para certificar de que os arquivos foram removidos com sucesso.
-  4. O erro provavelmente foi resolvido. Pode instalar o seu programa.
+  4. O erro provavelmente foi resolvido. Pode tentar instalar o seu programa novamente.
   
