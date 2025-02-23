@@ -1,0 +1,14 @@
+Leia tudo!
+1) Siga os passos do tutorial:
+    https://www.vivaolinux.com.br/dica/Alternativa-para-Habilitar-Hibernacao-no-Lubuntu-ou-Ubuntu
+2) Faça o ajuste:
+    No joy?
+
+    Check logind.conf file with sudo [nano,vim,etc.]/etc/systemd/logind.conf and uncomment the below line if it is (remove #). Remember to save! This will allow you an optional way to test hibernation easily.
+    
+    #HandleSuspendKey=suspend hibernate
+    
+    Restart machine and then sudo systemctl hibernate as before, or alternatively, you can just press the hibernate button you just enabled on your keyboard. If it exists.... dun. dun. dun.
+    
+    :Grub
+fonte: https://forum.zorin.com/t/has-anyone-had-luck-getting-hibernation-to-work-on-17/34690/2
