@@ -1,7 +1,7 @@
 Há dois aplicativos importantes: Jelyfin Server e Jellyfin Media Player. Este último é o cliente. 
-Ambos podem ser fácilmente encontrados para instalação no site https://flathub.org. Lembrando que ante deve-se instalar o flatpak na máquina.
+Ambos podem ser fácilmente encontrados para instalação no site https://flathub.org. Lembrando que antes deve-se instalar o flatpak na máquina.
 
-Para acessar de outros dispositivos na mesma rede, talvéz, antes deve-se liberar a porta a qual o servidor está utilizando. 
+Para acessar de outros dispositivos na mesma rede, talvez, antes deve-se liberar a porta a qual o servidor está utilizando. 
 
 Segue abaixo os comandos para Fedora:
 
@@ -13,4 +13,7 @@ sudo firewall-cmd --reload
 
 #Para confirmar se foi liberado
 sudo firewall-cmd --list-ports
+
+Pronto! 
+Agora o acesso para outros dipositivos da mesma rede estão liberados.
 
