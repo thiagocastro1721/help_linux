@@ -1,0 +1,17 @@
+As vezes o Grub Customizer não é capaz de reconhecer outro sistema operacional. 
+Este tutorial está focado no Fedora, mas pode ajudar com outros SOs.
+Como solução, siga os passos a seguir:
+
+1 - Abra o gerenciador de arquivos e descubra qual é o disco ou a partição do SO que deseja ser reconhecido. 
+  A partição se parecerá com o seguinte nome, /dev/sdb3.
+
+2 - Monte o disco ou partição como o exemplo de comando a seguir.
+ Se o disco fosse /dev/sdb3, então o comando deve ser:  
+  sudo mount /dev/sdb3 /mnt/fedora_boot
+
+3 - Atualize o grub:
+  sudo update-grub
+
+4 - Abra o Grub Customizer e atualize a lista de SO's.
+
+Pronto. O novo SO deve estar visível. Agora é só configurar a ordem e salvar.
