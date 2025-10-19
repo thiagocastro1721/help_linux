@@ -1,0 +1,8 @@
+nano ~/.xscreensaver
+```
+
+Procure e modifique estas linhas:
+```
+mode: off
+lock: False
+lockTimeout: 0:00:00
