@@ -1,0 +1,2 @@
+Veja um exemplo de aplicação do pyautogui no Fedora linux:
+https://github.com/thiagocastro1721/Robo-Diario-Oficial-da-Uni-o-com-pyautogui/blob/main/diarioOficial.py
