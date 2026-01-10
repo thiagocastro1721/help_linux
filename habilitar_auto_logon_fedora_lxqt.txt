@@ -1,0 +1,25 @@
+Como habilitar autologon no fedora lxqt?
+
+1. Criar o arquivo de configuração do SDDM
+No Fedora, as configurações personalizadas devem ser criadas no diretório .conf.d para evitar que atualizações do sistema as apaguem.
+
+    Abra o terminal e crie o arquivo:
+    sudo nano /etc/sddm.conf.d/autologin.conf
+    Cole o conteúdo abaixo, substituindo seu_usuario pelo seu nome de usuário:
+    ini
+
+    [Autologin]
+    User=seu_usuario
+    Session=lxqt
+
+    Use o código com cuidado.
+
+Salve com Ctrl+O, confirme com Enter e saia com Ctrl+X. 
+
+2. Confirmar se o SDDM está ativo
+Caso o sistema não reinicie no gerenciador correto, verifique se o SDDM é o serviço padrão:
+sudo systemctl set-default graphical.target
+sudo systemctl enable sddm 
+
+Fonte:
+Gemini
