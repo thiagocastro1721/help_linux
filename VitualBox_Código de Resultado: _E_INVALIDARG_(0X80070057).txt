@@ -1,0 +1,13 @@
+Como resolver 
+
+De: C:/LPIC1 - Debian 9.ova
+
+Código de Resultado: 
+E_INVALIDARG (0X80070057)
+
+Resumo:
+Execute no CMD como administrador o seguinte código: (Faça adaptação no caminho do arquivo .ova caso não ele não estaja na raiz C:)
+"C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" import "C:\LPIC1 - Debian 9.ova"
+
+Solução da IA do CLAUDE
+https://claude.ai/share/c5fb1fad-6543-4e51-97ca-1bb2abcf3ab3
